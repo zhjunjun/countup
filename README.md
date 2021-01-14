@@ -1,4 +1,5 @@
-# countdown
+# countup
+一个用vue写的顺计时器组件
 
 ## Project setup
 ```
