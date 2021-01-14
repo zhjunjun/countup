@@ -31,20 +31,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-h1 {
-  float: left;
-  margin: auto;
-}
-#quote {
-  float: left;
-  hight: 12px;
-  font-size: 28px;
-  font-style: bold;
-  margin: 80px, 0px;
-}
-#btn_control {
-  margin-top: 10px;
-  clear: both;
-  float: left;
-}
 </style>

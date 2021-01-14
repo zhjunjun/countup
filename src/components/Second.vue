@@ -1,5 +1,5 @@
 <template>
-  <h1 :class="{ warn: stoped }">{{ format(ss) }}</h1>
+  <h1 :class="{ warn: stoped }">{{ format }}</h1>
 </template>
 
 <script>
@@ -12,9 +12,10 @@ export default {
     ss: Number,
     stoped: Boolean,
   },
-  methods: {
-    format(data_num) {
-      let ss = data_num % 60;
+  methods: {},
+  computed: {
+    format() {
+      let ss = this.ss % 60;
       return ss < 10 ? "0" + ss : "" + ss;
     },
   },

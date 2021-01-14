@@ -67,7 +67,6 @@ export default {
   padding-top: 10px;
   height: 100px;
   width: 100px;
-  left: 50%;
   border: 0.9px solid;
   display: inline-block;
   margin-left: 20px;
@@ -85,7 +84,6 @@ h1 {
 }
 #btn_control {
   margin-top: 10px;
-  clear: both;
   float: left;
 }
 </style>

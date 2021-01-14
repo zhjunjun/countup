@@ -1,5 +1,5 @@
 <template>
-  <h1 :class="{ warn: stoped }">{{ format(mm) }}</h1>
+  <h1 :class="{ warn: stoped }">{{ format }}</h1>
 </template>
 
 <script>
@@ -9,9 +9,10 @@ export default {
     mm: Number,
     stoped: Boolean,
   },
-  methods: {
-    format(data_num) {
-      let mm = Math.floor(data_num / 60);
+  methods: {},
+  computed: {
+    format() {
+      let mm = Math.floor(this.mm / 60);
       return mm < 10 ? "0" + mm : "" + mm;
     },
   },
